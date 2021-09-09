@@ -3,7 +3,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     sevice-url:
-#       defaultZone: http://localhost:8761/eureka/
-        defaultZone: http://microservices-service-registry-env.eba-mmyez8my.us-east-2.elasticbeanstalk.com//eureka/
+      defaultZone: http://localhost:8761/eureka/
+#         defaultZone: http://microservices-service-registry-env.eba-mmyez8my.us-east-2.elasticbeanstalk.com//eureka/
   instance:
     hostname: localhost
